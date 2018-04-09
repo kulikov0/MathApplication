@@ -20,16 +20,21 @@ public class StepperAdapter extends AbstractFragmentStepAdapter {
 
     @Override
     public Step createStep(int position) {
-        final StepFragment step = new StepFragment();
-        Bundle b = new Bundle();
-//        b.putInt(CURRENT_STEP_POSITION_KEY, position);
-        step.setArguments(b);
+        Step step = new StepFragment();
+        switch(position) {
+            case 0:
+                step = new StepFragment();
+                break;
+            case 1:
+                step = new LessonOneActivity1();
+                break;
+        }
         return step;
     }
 
     @Override
     public int getCount() {
-        return 12;
+        return 2;
     }
 
     @NonNull

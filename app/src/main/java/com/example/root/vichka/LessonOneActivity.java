@@ -14,6 +14,8 @@ public class LessonOneActivity extends AppCompatActivity{
 
     private StepperLayout mStepperLayout;
 
+//    private final static String TAG = "Test";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

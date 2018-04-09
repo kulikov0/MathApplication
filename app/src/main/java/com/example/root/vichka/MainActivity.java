@@ -11,7 +11,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private VideoView mVideoView;
+//    private VideoView mVideoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(intentQuestions);
             }
         });
-
+/*
         mVideoView = (VideoView) findViewById(R.id.bgVideoView);
 
         mVideoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
@@ -47,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+*/
     }
 //запускаем видео заново при переключении из предыдущих активити
-    @Override
+/*    @Override
     public void onResume() {
         super.onResume();
 
@@ -63,5 +63,5 @@ public class MainActivity extends AppCompatActivity {
     public void onPause() {
         super.onPause();
         mVideoView.stopPlayback();
-    }
+   }   */
 }
