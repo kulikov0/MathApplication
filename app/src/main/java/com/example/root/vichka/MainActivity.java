@@ -49,7 +49,11 @@ public class MainActivity extends AppCompatActivity {
 
 */
     }
+<<<<<<< HEAD
 //restart video
+=======
+//запускаем видео заново при переключении из предыдущих активити
+>>>>>>> 75debe1de9079c547276ee459d26fd3a8382f12f
 /*    @Override
     public void onResume() {
         super.onResume();
