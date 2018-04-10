@@ -3,7 +3,6 @@ package com.example.root.vichka;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
@@ -12,6 +11,7 @@ import android.view.View;
 import android.content.Intent;
 import android.widget.ImageView;
 
+import com.example.root.vichka.Lessons.LessonOneActivity;
 import com.squareup.picasso.Picasso;
 
 

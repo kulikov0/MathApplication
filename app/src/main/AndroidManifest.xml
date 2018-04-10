@@ -34,8 +34,16 @@
         </activity>
 
         <activity
-            android:name=".LessonOneActivity"
-            android:screenOrientation="portrait">
+            android:name=".Lessons.LessonOneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".Questions.QuestionOneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
 
         </activity>
 

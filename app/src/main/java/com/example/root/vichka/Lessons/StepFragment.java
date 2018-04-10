@@ -1,4 +1,4 @@
-package com.example.root.vichka;
+package com.example.root.vichka.Lessons;
 
 
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.root.vichka.R;
 import com.stepstone.stepper.Step;
 import com.stepstone.stepper.VerificationError;
 

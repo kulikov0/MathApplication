@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.view.View;
@@ -23,6 +24,16 @@ public class QuestionsActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
         initInstancesDrawer();
+
+        CardView question1 = (CardView) findViewById(R.id.question_one);
+        question1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                Intent intentquestion1 = new Intent(QuestionsActivity.this, QuestionsActivity.class);
+                QuestionsActivity.this.startActivity(intentquestion1);
+            }
+
+        });
 
         ImageView image_back2 = (ImageView) findViewById(R.id.main_backdrop);
         Picasso.get()
