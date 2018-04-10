@@ -12,6 +12,7 @@ import android.view.View;
 import android.content.Intent;
 import android.widget.ImageView;
 
+import com.example.root.vichka.Questions.QuestionOneActivity;
 import com.squareup.picasso.Picasso;
 
 public class QuestionsActivity extends AppCompatActivity{
@@ -29,8 +30,8 @@ public class QuestionsActivity extends AppCompatActivity{
         question1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                Intent intentquestion1 = new Intent(QuestionsActivity.this, QuestionsActivity.class);
-                QuestionsActivity.this.startActivity(intentquestion1);
+                Intent intentQuestion1 = new Intent(QuestionsActivity.this, QuestionOneActivity.class);
+                QuestionsActivity.this.startActivity(intentQuestion1);
             }
 
         });
