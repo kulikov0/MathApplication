@@ -11,7 +11,7 @@
 
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.root.app_math.MainActivity"
             android:screenOrientation="portrait">
 
             <intent-filter>
@@ -22,26 +22,26 @@
         </activity>
 
         <activity
-            android:name=".QuestionsActivity"
+            android:name="com.example.root.app_math.QuestionsActivity"
             android:screenOrientation="portrait">
 
         </activity>
 
         <activity
-            android:name=".TheoryActivity"
+            android:name="com.example.root.app_math.TheoryActivity"
             android:screenOrientation="portrait">
 
         </activity>
 
         <activity
-            android:name=".Lessons.LessonOneActivity"
+            android:name="com.example.root.app_math.Lessons.LessonOneActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
 
         </activity>
 
         <activity
-            android:name=".Questions.QuestionOneActivity"
+            android:name="com.example.root.app_math.Questions.QuestionOneActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
 

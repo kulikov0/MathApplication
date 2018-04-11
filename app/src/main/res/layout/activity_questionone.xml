@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Test"
-        android:gravity="center"/>
-</android.support.constraint.ConstraintLayout>
+<com.stepstone.stepper.StepperLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stepperLayoutForQOne"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:ms_stepperType="progress_bar"
+    app:ms_showBackButtonOnFirstStep="true"
+    tools:theme="@style/AppTheme" />
