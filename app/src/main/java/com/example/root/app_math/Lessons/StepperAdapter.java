@@ -19,13 +19,13 @@ public class StepperAdapter extends AbstractFragmentStepAdapter {
 
     @Override
     public Step createStep(int position) {
-        Step step = new StepFragment();
+        Step step = new LessonOneActivity1();
         switch(position) {
             case 0:
-                step = new StepFragment();
+                step = new LessonOneActivity1();
                 break;
             case 1:
-                step = new LessonOneActivity1();
+                step = new LessonOneActivity2();
                 break;
         }
         return step;

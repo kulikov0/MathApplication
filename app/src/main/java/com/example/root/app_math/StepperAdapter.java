@@ -7,7 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentManager;
 
 import com.example.root.app_math.Lessons.LessonOneActivity1;
-import com.example.root.app_math.Lessons.StepFragment;
+import com.example.root.app_math.Lessons.LessonOneActivity2;
 import com.stepstone.stepper.Step;
 import com.stepstone.stepper.adapter.AbstractFragmentStepAdapter;
 import com.stepstone.stepper.viewmodel.StepViewModel;
@@ -20,13 +20,13 @@ public class StepperAdapter extends AbstractFragmentStepAdapter {
 
     @Override
     public Step createStep(int position) {
-        Step step = new StepFragment();
+        Step step = new LessonOneActivity1();
         switch(position) {
             case 0:
-                step = new StepFragment();
+                step = new LessonOneActivity1();
                 break;
             case 1:
-                step = new LessonOneActivity1();
+                step = new LessonOneActivity2();
                 break;
         }
         return step;

@@ -4,8 +4,6 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.view.View;
-
 import com.example.root.vichka.R;
 import com.stepstone.stepper.StepperLayout;
 
@@ -19,7 +17,7 @@ public class QuestionOneActivity extends AppCompatActivity {
         setContentView(R.layout.activity_questionone);
         mStepperLayout = (StepperLayout) findViewById(R.id.stepperLayoutForQOne);
         mStepperLayout.setAdapter(new QuestionOneAdapter(getSupportFragmentManager(), this));
-        getSupportActionBar().setTitle("Введение в комбинаторику");
+        getSupportActionBar().setTitle("Введение задачи");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.green)));
     }
@@ -34,3 +32,10 @@ public class QuestionOneActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+
+
+
+
+
+
+

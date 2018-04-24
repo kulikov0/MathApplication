@@ -10,7 +10,6 @@ import com.example.root.vichka.R;
 
 public class MainActivity extends AppCompatActivity {
 
-//    private VideoView mVideoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,32 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(intentQuestions);
             }
         });
-/*
-        mVideoView = (VideoView) findViewById(R.id.bgVideoView);
 
-        mVideoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
-            @Override
-            public void onPrepared(MediaPlayer mediaPlayer) {
-                mediaPlayer.setLooping(true);
-            }
-        });
-
-*/
     }
-//restart video
-//запускаем видео заново при переключении из предыдущих активити
-/*    @Override
-    public void onResume() {
-        super.onResume();
-
-        Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.video);
-        mVideoView.setVideoURI(uri);
-        mVideoView.start();
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        mVideoView.stopPlayback();
-   }   */
 }

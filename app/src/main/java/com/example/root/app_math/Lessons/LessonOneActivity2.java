@@ -1,6 +1,5 @@
 package com.example.root.app_math.Lessons;
 
-
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -12,11 +11,11 @@ import com.example.root.vichka.R;
 import com.stepstone.stepper.Step;
 import com.stepstone.stepper.VerificationError;
 
-public class StepFragment extends Fragment implements Step {
+public class LessonOneActivity2 extends Fragment implements Step {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.step, container, false);
+        View v = inflater.inflate(R.layout.activity_lessonone2, container, false);
 
         //initialize your UI
 
@@ -40,3 +39,4 @@ public class StepFragment extends Fragment implements Step {
     }
 
 }
+

@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MathApplication.iml" filepath="$PROJECT_DIR$/MathApplication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Vichka.iml" filepath="$PROJECT_DIR$/Vichka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

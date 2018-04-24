@@ -15,7 +15,7 @@ import com.example.root.app_math.Questions.QuestionOneActivity;
 import com.example.root.vichka.R;
 import com.squareup.picasso.Picasso;
 
-public class QuestionsActivity extends AppCompatActivity{
+public class   QuestionsActivity extends AppCompatActivity{
 
     Toolbar toolbar;
     CollapsingToolbarLayout collapsingToolbarLayout;

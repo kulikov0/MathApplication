@@ -3,10 +3,25 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="test1"/>
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textintro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Что такое комбинаторика?"
+            android:gravity="center|top"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Комбинаторика – раздел математики, который изучает задачи выбора и расположения элементов из некоторого основного множества в соответствии с заданными правилами. Формулы и  принципы  комбинаторики  используются  в  теории  вероятностей для подсчета  вероятности  случайных  событий и,  соответственно, получения законов распределения случайных величин. Это,  в  свою  очередь,  позволяет  исследовать  закономерности массовых случайных явлений, что является весьма важным для правильного понимания  статистических  закономерностей, проявляющихся в природе и технике."
+            />
+
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

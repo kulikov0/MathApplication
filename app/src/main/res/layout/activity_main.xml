@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#e8d2a9"
-    tools:context="com.example.root.vichka.com.example.root.app_math.MainActivity">
+    tools:context="com.example.root.app_math.MainActivity">
 
     <!--<VideoView
         android:id="@+id/bgVideoView"
